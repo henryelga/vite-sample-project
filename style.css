@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    background-color: #282D35;
+    line-height: 19px;
+}
+
+.nav-logo {
+    width: 28.93px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+    height: 91px;
+    background-color: #21222A;
+    color: #fff;
+}
+
+.logo {
+    display: flex;
+    font-size: 22.25px;
+    color: #61DAFB;
+}
+
+.logo>h3 {
+    margin: 0;
+}
+
+.navbar>div>h4 {
+    margin: 0;
+}
+
+.main {    
+    height: 100vh;
+    padding: 57px 27px;
+    color: #fff;
+    font-size: 1.2em;
+    background-image: url(react.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+}
+
+.main>h1 {
+    margin: 0;
+    font-size: 39px;
+    letter-spacing: -0.05em;
+}
+
+.main>ul{
+    margin-top: 46px;
+    line-height: 3em;
+}
+
+.main>ul>li::marker{
+    font-size: 1.2em;
+    color: #61DAFB;
+}
